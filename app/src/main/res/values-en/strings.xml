@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Money Notes</string>
+
+    <!-- Labels -->
+    <string name="label_saldo_bulan_ini">Balance This Month</string>
+    <string name="label_saldo">Balance</string>
+    <string name="label_pemasukan">Income</string>
+    <string name="label_pengeluaran">Expense</string>
+    <string name="label_ringkasan_bulanan">Financial Summary</string>
+    <string name="label_transaksi_terbaru">Latest Transactions</string>
+    <string name="label_belum_ada_transaksi">No transactions yet</string>
+    <string name="label_laporan">Financial Report</string>
+    <string name="label_tambah_transaksi">Add Transaction</string>
+    <string name="label_tipe_transaksi">Transaction Type</string>
+    <string name="label_harian">Daily</string>
+    <string name="label_mingguan">Weekly</string>
+    <string name="label_bulanan">Monthly</string>
+    <string name="label_detail_kategori">Detail per Category</string>
+    <string name="label_transaksi_item">%d transactions</string>
+
+    <!-- Hints / Field Labels -->
+    <string name="hint_judul">Title</string>
+    <string name="hint_nominal">Amount</string>
+    <string name="hint_tanggal">Date</string>
+    <string name="hint_kategori">Category</string>
+    <string name="hint_keterangan">Note (optional)</string>
+
+    <!-- Screen Titles -->
+    <string name="title_catat_keuangan">Record Finance</string>
+    <string name="title_pengaturan">Settings</string>
+
+    <!-- Settings -->
+    <string name="label_ganti_bahasa">Change Language</string>
+    <string name="label_bahasa_indonesia">Indonesian</string>
+    <string name="label_bahasa_inggris">English</string>
+    <string name="label_ganti_tema">Change Theme</string>
+    <string name="label_tema_sesuai_device">Follow Device</string>
+    <string name="label_tema_light">Light</string>
+    <string name="label_tema_dark">Dark</string>
+
+    <!-- Actions -->
+    <string name="action_simpan">Save</string>
+    <string name="action_batal">Cancel</string>
+    <string name="action_ok">OK</string>
+    <string name="action_kembali">Back</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_hapus">Delete</string>
+    <string name="action_konfirmasi_hapus">Delete Transaction?</string>
+    <string name="desc_konfirmasi_hapus">This action cannot be undone. The transaction will be permanently deleted.</string>
+
+    <!-- Detail -->
+    <string name="title_detail_transaksi">Transaction Detail</string>
+    <string name="title_edit_transaksi">Edit Transaction</string>
+    <string name="label_field_judul">Title</string>
+    <string name="label_field_nominal">Amount</string>
+    <string name="label_field_tanggal">Date</string>
+    <string name="label_field_kategori">Category</string>
+    <string name="label_field_keterangan">Note</string>
+    <string name="label_field_tipe">Type</string>
+    <string name="label_tidak_ada_keterangan">-</string>
+</resources>
+

@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Catatan Uang</string>
+
+    <!-- Labels -->
+    <string name="label_saldo_bulan_ini">Saldo Bulan Ini</string>
+    <string name="label_saldo">Saldo</string>
+    <string name="label_pemasukan">Pemasukan</string>
+    <string name="label_pengeluaran">Pengeluaran</string>
+    <string name="label_ringkasan_bulanan">Ringkasan Keuangan</string>
+    <string name="label_transaksi_terbaru">Transaksi Terbaru</string>
+    <string name="label_belum_ada_transaksi">Belum ada transaksi</string>
+    <string name="label_laporan">Laporan Keuangan</string>
+    <string name="label_tambah_transaksi">Tambah Transaksi</string>
+    <string name="label_tipe_transaksi">Tipe Transaksi</string>
+    <string name="label_harian">Harian</string>
+    <string name="label_mingguan">Mingguan</string>
+    <string name="label_bulanan">Bulanan</string>
+    <string name="label_detail_kategori">Detail per Kategori</string>
+    <string name="label_transaksi_item">%d transaksi</string>
+
+    <!-- Hints / Field Labels -->
+    <string name="hint_judul">Judul</string>
+    <string name="hint_nominal">Nominal</string>
+    <string name="hint_tanggal">Tanggal</string>
+    <string name="hint_kategori">Kategori</string>
+    <string name="hint_keterangan">Keterangan (opsional)</string>
+
+    <!-- Screen Titles -->
+    <string name="title_catat_keuangan">Catat Keuangan</string>
+    <string name="title_pengaturan">Pengaturan</string>
+
+    <!-- Settings -->
+    <string name="label_ganti_bahasa">Ganti Bahasa</string>
+    <string name="label_bahasa_indonesia">Bahasa Indonesia</string>
+    <string name="label_bahasa_inggris">Bahasa Inggris</string>
+    <string name="label_ganti_tema">Ganti Tema</string>
+    <string name="label_tema_sesuai_device">Sesuai Device</string>
+    <string name="label_tema_light">Light</string>
+    <string name="label_tema_dark">Dark</string>
+
+    <!-- Actions -->
+    <string name="action_simpan">Simpan</string>
+    <string name="action_batal">Batal</string>
+    <string name="action_ok">OK</string>
+    <string name="action_kembali">Kembali</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_hapus">Hapus</string>
+    <string name="action_konfirmasi_hapus">Hapus Transaksi?</string>
+    <string name="desc_konfirmasi_hapus">Tindakan ini tidak dapat dibatalkan. Transaksi akan dihapus secara permanen.</string>
+
+    <!-- Detail -->
+    <string name="title_detail_transaksi">Detail Transaksi</string>
+    <string name="title_edit_transaksi">Edit Transaksi</string>
+    <string name="label_field_judul">Judul</string>
+    <string name="label_field_nominal">Nominal</string>
+    <string name="label_field_tanggal">Tanggal</string>
+    <string name="label_field_kategori">Kategori</string>
+    <string name="label_field_keterangan">Keterangan</string>
+    <string name="label_field_tipe">Tipe</string>
+    <string name="label_tidak_ada_keterangan">-</string>
+</resources>
+
