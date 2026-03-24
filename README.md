@@ -1,56 +1,76 @@
+# CatatanUang
 
-# CatatanUang - Personal Finance Manager
+CatatanUang adalah aplikasi Android untuk mencatat pemasukan dan pengeluaran secara offline. Project ini dibangun dengan Kotlin + Jetpack Compose, memakai pendekatan Clean Architecture, MVVM, Room, dan Koin.
 
-CatatanUang is a modern, offline-first Android application designed for effortless personal finance management. Built with Kotlin and Jetpack Compose, it offers a clean, intuitive interface to help you track your income and expenses with ease.
+> Repo ini dibuat dengan **full vibe coding menggunakan GitHub Copilot**.
 
-## ✨ Features
+## ✨ Fitur yang Sudah Ada
 
-- **Offline-First**: Your data is always available, with or without an internet connection.
-- **Secure**: Sensitive financial data is stored locally and encrypted for your privacy.
-- **Modern UI**: A sleek, intuitive interface built with Jetpack Compose.
-- **Data Backup & Restore**: (Coming Soon) Securely back up your data and restore it anytime.
-- **Insightful Analytics**: (Coming Soon) Visualize your spending habits with charts and graphs.
+- **Catat transaksi** pemasukan dan pengeluaran
+- **Edit dan hapus transaksi**
+- **Detail transaksi** lengkap
+- **Ringkasan saldo** di halaman utama
+- **Transaksi terbaru** di home screen
+- **Pie chart bulanan** dengan filter periode
+- **Laporan harian, mingguan, dan bulanan**
+- **Pengaturan bahasa** (Indonesia / English)
+- **Pengaturan tema** (System / Light / Dark)
+- **Offline-first**, karena data disimpan lokal di perangkat
 
-## 🛠 Tech Stack & Architecture
+## 🧱 Tech Stack
 
-- **Language**: [Kotlin](https://kotlinlang.org/)
-- **UI**: [Jetpack Compose](https://developer.android.com/jetpack/compose)
-- **Architecture**: Clean Architecture (UI, Domain, Data layers) + MVVM
-- **Dependency Injection**: [Koin](httpshttps://insert-koin.io/)
-- **Concurrency**: Kotlin Coroutines & Flow
-- **Database**: [Room](https://developer.android.com/training/data-storage/room) for local storage
-- **Networking**: [Retrofit](https://square.github.io/retrofit/) & [OkHttp](https://square.github.io/okhttp/)
-- **Serialization**: [kotlinx.serialization](https://github.com/Kotlin/kotlinx.serialization)
+- **Language**: Kotlin
+- **UI**: Jetpack Compose + Material 3
+- **Architecture**: Clean Architecture + MVVM
+- **Dependency Injection**: Koin
+- **Local Database**: Room
+- **Preferences**: DataStore
+- **Navigation**: Navigation Compose
+- **Charts**: Donut Compose
+- **Async**: Kotlin Coroutines & Flow
+- **Build System**: Gradle Kotlin DSL
 
-## 🚀 Getting Started
+## 📁 Struktur Project
 
-### Prerequisites
+```text
+app/src/main/java/com/oratakashi/catatanuang/
+├── data/        # Local database, DAO, preferences, repository implementation
+├── di/          # Koin module
+├── domain/      # Model, repository contract, mapper, use case
+├── helpers/     # Helper dan formatter
+├── navigation/  # Route dan navigation graph
+└── ui/          # Screen, component, ViewModel, theme
+```
 
-- Android Studio Iguana | 2023.2.1 or later
+## 📱 Layar yang Tersedia
+
+- Home
+- Tambah transaksi
+- Detail transaksi
+- Edit transaksi
+- Laporan
+- Pengaturan
+
+## 🚀 Menjalankan Project
+
+### Prasyarat
+
+- Android Studio versi terbaru
 - JDK 17
 
-### Installation
+### Langkah
 
-1.  **Clone the repository**:
-    ```bash
-    git clone https://github.com/your-username/CatatanUang.git
-    ```
-2.  **Open in Android Studio**:
-    Open the cloned directory in Android Studio.
-3.  **Sync and Run**:
-    Let Gradle sync the dependencies, then build and run the application on an emulator or a physical device.
+1. Clone repository:
 
-## 📸 Screenshots
+   ```bash
+   git clone https://github.com/oratakashi/CatatanUang.git
+   ```
 
-*(placeholder for screenshots)*
-
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+2. Buka project di Android Studio
+3. Tunggu Gradle sync selesai
+4. Jalankan app di emulator atau device Android
 
 ## 📬 Contact
 
-Oratakashi – [@oratakashi](https://twitter.com/orataganteng) – oratakashi@oratakashi.com
-
-Project Link: [https://github.com/oratakashi/CatatanUang](https://github.com/oratakashi/CatatanUang)
-
+- GitHub: [oratakashi](https://github.com/oratakashi)
+- Repository: [oratakashi/CatatanUang](https://github.com/oratakashi/CatatanUang)
