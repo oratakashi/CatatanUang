@@ -1,21 +1,21 @@
 # CatatanUang
 
-CatatanUang adalah aplikasi Android untuk mencatat pemasukan dan pengeluaran secara offline. Project ini dibangun dengan Kotlin + Jetpack Compose, memakai pendekatan Clean Architecture, MVVM, Room, dan Koin.
+CatatanUang is an offline Android application for tracking income and expenses. The project is built with Kotlin and Jetpack Compose, using Clean Architecture, MVVM, Room, and Koin.
 
-> Repo ini dibuat dengan **full vibe coding menggunakan GitHub Copilot**.
+> This repository was created through **full vibe coding with GitHub Copilot**.
 
-## ✨ Fitur yang Sudah Ada
+## ✨ Current Features
 
-- **Catat transaksi** pemasukan dan pengeluaran
-- **Edit dan hapus transaksi**
-- **Detail transaksi** lengkap
-- **Ringkasan saldo** di halaman utama
-- **Transaksi terbaru** di home screen
-- **Pie chart bulanan** dengan filter periode
-- **Laporan harian, mingguan, dan bulanan**
-- **Pengaturan bahasa** (Indonesia / English)
-- **Pengaturan tema** (System / Light / Dark)
-- **Offline-first**, karena data disimpan lokal di perangkat
+- **Transaction recording** for both income and expenses
+- **Transaction editing and deletion**
+- **Detailed transaction view**
+- **Balance summary** on the home screen
+- **Recent transactions** displayed on the home screen
+- **Monthly pie chart** with period filtering
+- **Daily, weekly, and monthly reports**
+- **Language preferences** (Indonesian / English)
+- **Theme preferences** (System / Light / Dark)
+- **Offline-first** data storage on the device
 
 ## 🧱 Tech Stack
 
@@ -30,45 +30,45 @@ CatatanUang adalah aplikasi Android untuk mencatat pemasukan dan pengeluaran sec
 - **Async**: Kotlin Coroutines & Flow
 - **Build System**: Gradle Kotlin DSL
 
-## 📁 Struktur Project
+## 📁 Project Structure
 
 ```text
 app/src/main/java/com/oratakashi/catatanuang/
-├── data/        # Local database, DAO, preferences, repository implementation
-├── di/          # Koin module
-├── domain/      # Model, repository contract, mapper, use case
-├── helpers/     # Helper dan formatter
-├── navigation/  # Route dan navigation graph
-└── ui/          # Screen, component, ViewModel, theme
+├── data/        # Local database, DAO, preferences, and repository implementation
+├── di/          # Koin modules
+├── domain/      # Models, repository contracts, mappers, and use cases
+├── helpers/     # Shared helpers and formatters
+├── navigation/  # Routes and navigation graph
+└── ui/          # Screens, components, ViewModels, and theme
 ```
 
-## 📱 Layar yang Tersedia
+## 📱 Available Screens
 
 - Home
-- Tambah transaksi
-- Detail transaksi
-- Edit transaksi
-- Laporan
-- Pengaturan
+- Add transaction
+- Transaction detail
+- Edit transaction
+- Report
+- Settings
 
-## 🚀 Menjalankan Project
+## 🚀 Running the Project
 
-### Prasyarat
+### Prerequisites
 
-- Android Studio versi terbaru
+- Android Studio (latest stable version recommended)
 - JDK 17
 
-### Langkah
+### Steps
 
-1. Clone repository:
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/oratakashi/CatatanUang.git
    ```
 
-2. Buka project di Android Studio
-3. Tunggu Gradle sync selesai
-4. Jalankan app di emulator atau device Android
+2. Open the project in Android Studio
+3. Wait for Gradle sync to complete
+4. Run the app on an emulator or Android device
 
 ## 📬 Contact
 
